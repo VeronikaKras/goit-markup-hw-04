@@ -450,6 +450,7 @@ align-items: center;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
         background-size: cover;
+        max-width: 1440рх;
     }
 
     .visually-hidden {
