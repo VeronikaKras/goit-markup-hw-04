@@ -53,7 +53,6 @@ button {
 }
 
 
-
 .page-header-container {
 display: flex;
 align-items: center;
@@ -312,7 +311,33 @@ align-items: center;
 .four-items {
     width: 264px;
 }
+.four-items::before {
+    content: "";
+    display: block;
+        height: 112px;
+       background-color: #F4F4FD;
+              background-size: contain;
+       background-repeat: no-repeat;
+       background-position: center;
+    margin-bottom: 8px;
+}
 
+.item-strategy::before {
+    background-image: url(../images/imageshw04/strategy-img.png);
+   
+}
+
+.item-punctuality::before {
+    background-image: url(../images/imageshw04/punctuality.png);
+}
+
+.item-diligence::before {
+    background-image: url(../images/imageshw04/diligence.png);
+}
+
+.item-technologies::before {
+    background-image: url(../images/imageshw04/technologies.png);
+}
      .doing-section {
         
             padding-bottom: 120px;
@@ -348,6 +373,13 @@ align-items: center;
     gap: 40px;
 }
 
+.customers {
+    display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 
          .menu-link {
     
@@ -416,6 +448,8 @@ align-items: center;
         background-color: #2E2F42;
         
         padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
+        background-size: cover;
     }
 
     .visually-hidden {
