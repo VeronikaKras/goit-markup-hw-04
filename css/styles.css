@@ -415,6 +415,17 @@ align-items: center;
         padding-bottom: 120px;
     }
 
+    .cust-link {
+        display: flex;
+        justify-content: center;
+        align-items: center ;
+        width: 168px;
+        height: 88px;
+        background-color: #ffffff;
+      color: #E5E5E5;
+        border-color: #E5E5E5;;
+    }
+
          .menu-link {
     
              font-weight: 500;
@@ -453,7 +464,7 @@ align-items: center;
             font-size: 16px;
             line-height: ;
            letter-spacing: 0.02em;
-        
+        margin-bottom: 18px;
           color: #FFFFFF;
      }
 
@@ -516,7 +527,7 @@ align-items: center;
 .section-portfolio {
     padding: 96px 120px;
 }
-      
+   
 .small-text-footer {
 font-family: 'Roboto';
     font-style: normal;
