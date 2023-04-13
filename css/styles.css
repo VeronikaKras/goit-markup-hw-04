@@ -422,8 +422,10 @@ align-items: center;
         width: 168px;
         height: 88px;
         background-color: #ffffff;
-      color: #E5E5E5;
-        border-color: #E5E5E5;
+      fill: #E5E5E5;
+      border-radius: 4%;
+       
+        border: 1px solid;
     }
 
     
