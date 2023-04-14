@@ -106,7 +106,9 @@ align-items: center;
         padding-top: 24px;
         padding-bottom: 24px;
         border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     }
+    
      .logo {
         font-family: 'Raleway', sans-serif;
         font-weight: 800;
@@ -150,13 +152,14 @@ align-items: center;
         color: #FFFFFF;
         background-color: var(--ocean-color);
         border: 1px solid transparent;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
      }
      .change-color-btn:focus {
-
-    
+   
     color: #FFFFFF;
     background-color: var(--ocean-color);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
      }
 
      
@@ -318,7 +321,7 @@ align-items: center;
     background-color: #F4F4FD;
     justify-content: center;
         align-items: center;
-        border-radius: 4 px;
+        border-radius: 4px;
 display: flex;
         width: 264px;
         height: 112px;
@@ -368,6 +371,7 @@ display: flex;
 .card:focus {
     border: 1px solid #F4F4FD;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        
 }
 .card:hover {
     border: 1px solid #F4F4FD;
@@ -535,13 +539,14 @@ display: flex;
         gap: 40px;
     }
     .section-effect-sol {
+        max-width: 1440px;
         background-color: #2E2F42;
         background-repeat: no-repeat;
         background-position: center;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
         background-size: cover;
-        max-width: 1440рх;
+        
     }
 
     .visually-hidden {
