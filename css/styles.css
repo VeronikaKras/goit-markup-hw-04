@@ -95,7 +95,10 @@ align-items: center;
          .team-names {
             background-color: #FFFFFF;
             text-align: center;
-            
+            box-shadow: rgba(46, 47, 66, 0.08),
+                0px 1px 1px rgba(46, 47, 66, 0.16),
+                0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;
          }
 
 
@@ -242,12 +245,13 @@ align-items: center;
         
             font-weight: 700;
             font-size: 36px;
-            line-height: 1.11;            
+            line-height: 1.1;            
             text-align: center;
             letter-spacing: 0.02em;
             text-transform: capitalize;
             color: var(--header-words-color);
             margin-bottom: 72px;
+            
         
      }
 
@@ -259,10 +263,8 @@ align-items: center;
      .name-card {
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
-            padding-top: 32px;
-            padding-bottom: 32px;
-            padding-left: 16px;
-            padding-right: 16px;
+           
+            padding: 32px 0;
      }
 
 
@@ -274,6 +276,7 @@ align-items: center;
         height: 40px;
         border-radius: 50%;
         background-color:#4d5ae5;
+        gap: 16px;
      }
 
      .social-list-link:hover,
@@ -323,7 +326,13 @@ align-items: center;
 
 }
 
+.cust-item {
+    width: calc((100% - 120px) / 6);
+}
 
+.card-link {
+    display: block;
+}
 .cards-filter {
     display: flex;
     flex-wrap: wrap;
@@ -390,6 +399,7 @@ align-items: center;
             letter-spacing: 0.02em;
             color:#F4F4FD;
             margin-top: 16px;
+            margin-bottom: 16px;
             width: 264px;
             
      }
@@ -417,9 +427,9 @@ align-items: center;
         height: 88px;
         background-color: #ffffff;
       fill: #E5E5E5;
-      border-radius: 4%;
+      border-radius: 4px;
        
-        border: 1px solid;
+        border: 1px solid #8e8f99;
         color: #E5E5E5;
 
     }
@@ -560,7 +570,8 @@ font-family: 'Roboto';
 
 .footer-gap {
     gap: 120px;
-    display: flex; }
+    display: flex;
+align-items: baseline; }
 
     .footer-media-list {
         margin-left:  120px;
