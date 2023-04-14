@@ -301,9 +301,22 @@ align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
-    
+       
    
 }
+
+.four-icons-svg {
+    background-color: #F4F4FD;
+    justify-content: center;
+        align-items: center;
+        border-radius: 4%;
+ 
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+}
+
+
 
 .cards-filter {
     display: flex;
@@ -345,33 +358,8 @@ align-items: center;
 .four-items {
     width: 264px;
 }
-.four-items::before {
-    content: "";
-    display: block;
-        height: 112px;
-       background-color: #F4F4FD;
-              background-size: contain;
-       background-repeat: no-repeat;
-       background-position: center;
-    margin-bottom: 8px;
-}
 
-.item-strategy::before {
-    background-image: url(../images/imageshw04/strategy-img.png);
-   
-}
 
-.item-punctuality::before {
-    background-image: url(../images/imageshw04/punctuality.png);
-}
-
-.item-diligence::before {
-    background-image: url(../images/imageshw04/diligence.png);
-}
-
-.item-technologies::before {
-    background-image: url(../images/imageshw04/technologies.png);
-}
      .doing-section {
         
             padding-bottom: 120px;
