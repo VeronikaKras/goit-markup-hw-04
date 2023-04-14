@@ -289,6 +289,12 @@ align-items: center;
         gap: 24px;
      }
 
+         .social-list-footer {
+             display: flex;
+             justify-content: center;
+             gap: 16px;
+         }
+
       .social-list-icon {
         fill: #F4F4FD;
       }
@@ -323,6 +329,7 @@ align-items: center;
 .cust-link:focus {
     color:  #404BBF;
     fill: #404BBF;
+    border-color: #404bbf;
 
 }
 
@@ -473,10 +480,11 @@ align-items: center;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
-            line-height: ;
+            line-height: 1.5 ;
            letter-spacing: 0.02em;
-        margin-bottom: 18px;
+        margin-bottom: 16px;
           color: #FFFFFF;
+
      }
 
      
@@ -527,7 +535,8 @@ align-items: center;
     }
     .section-effect-sol {
         background-color: #2E2F42;
-        
+        background-repeat: no-repeat;
+        background-position: center;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imageshw04/bg1-hw4.jpg);
         background-size: cover;
