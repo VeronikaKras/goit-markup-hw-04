@@ -316,6 +316,12 @@ align-items: center;
         margin-bottom: 8px;
 }
 
+.cust-link:hover,
+.cust-link:focus {
+    color:  #404BBF;
+    fill: #404BBF;
+
+}
 
 
 .cards-filter {
@@ -427,6 +433,8 @@ align-items: center;
              letter-spacing: 0.02em;             
              color: #2e2f42;
             padding: 24px 0;
+          
+           
                       }
      .menu-link:hover {
         color: var(--ocean-color);
@@ -557,4 +565,37 @@ font-family: 'Roboto';
     .footer-media-list {
         margin-left:  120px;
     }
-                      
+    
+    
+    .menu-first-link::after {
+        display: block;
+        content: "";
+        width: 48px;
+            height: 4px;
+            background-color: #404BBF;
+                border-radius: 2px;
+                margin: 0 auto;
+                
+    }
+
+          .menu-second-link::after {
+              display: block;
+              content: "";
+              width: 66px;
+              height: 4px;
+              background-color: #404BBF;
+              border-radius: 2px;
+              margin: 0 auto;
+    
+          }
+
+                        .menu-third-link::after {
+                            display: block;
+                            content: "";
+                            width: 67px;
+                            height: 4px;
+                            background-color: #404BBF;
+                            border-radius: 2px;
+                            margin: 0 auto;
+            
+                        }
