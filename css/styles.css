@@ -424,9 +424,7 @@ display: flex;
 }
 
 .customers {
-    display: flex;
-        align-items: center;
-        gap: 24px;
+    
         padding-top: 120px;
         padding-bottom: 120px;
     }
