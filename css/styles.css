@@ -572,7 +572,8 @@ display: flex;
     }
 
 .section-portfolio {
-    padding: 96px 120px;
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
    
 .small-text-footer {
